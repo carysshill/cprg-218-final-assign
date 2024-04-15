@@ -1,0 +1,175 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+
+html, body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(206, 197, 186);
+    margin: 0;
+    padding: 0;
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.nav-menu {
+    gap: 3rem;
+    list-style: none;
+    font-size: 2rem;
+}
+
+a {
+    color: #004F9E;
+    text-decoration: none;
+    text-decoration-color: rgb(113, 172, 225);
+}
+
+a:hover {
+    color: #474747;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: black;
+}
+
+.picture-text {
+   position: absolute;
+   top: 65%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #004F9E;
+   font-size: 4rem;
+   text-align: center;
+}
+
+.header-1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #004F9E;
+    font-size: 4rem;
+ }
+
+ .picture-hero img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 50%;
+ }
+ 
+ .clothes-image img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 50%;
+ }
+
+ .details {
+    font-size: smaller;
+    color: #004F9E;
+ }
+
+ .contact-section {
+    height: 700px;
+ }
+ .contact-text, .column {
+    text-align: center;
+    margin-top: 5%;
+ }
+
+
+ .menu-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 50px;
+ }
+
+ input:checked ~ .menu-content {
+max-height: 100%;
+ }
+
+ .collapsible-menu {
+    background-color: white;
+    padding: 0px 30px;
+    border-bottom: 3px solid rgb(193, 178, 160);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+ }
+
+ .collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+ }
+
+ .collapsible-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+ }
+
+ .collapsible-menu label {
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 0 10px 50px;
+ }
+
+ input#menu {
+    display: none;
+ }
+
+.material-symbols-outlined {
+    color:#004F9E;
+}
+
+.footer-container {
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+.footer-nav {
+    background-color: antiquewhite;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+ .Email .Email-link {
+    background-color: antiquewhite;
+    margin-top: 17vh;
+    text-align: center;
+ }
+
+ .copyright {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 8px;
+ }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

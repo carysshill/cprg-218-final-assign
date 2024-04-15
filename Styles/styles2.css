@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+
+
+.card-container, #clothes-cards, #sweatpants-cards, #shorts-cards, #tops-cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 178, 160);
+    border-radius: 2rem;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(149, 138, 123);
+    padding: 1rem;
+    height: 20%;
+}
+
+.card, .card1, .card2, .card3, .card4 {
+    flex: 0 0 calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(149, 138, 123);
+    background-color: #fff;
+}
+
+img {
+    border-bottom: 0.25rem solid rgb(113, 172, 225);
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        min-height: 15.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    img {
+        min-height: 16.375rem;
+    }
+}
+
+.card-content, .clothes-content, .sweatpants-content, .shorts-content, .tops-content {
+    padding: 1rem;
+}
+
+.header {
+    margin: 0;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
